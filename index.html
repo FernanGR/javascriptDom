@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visualizador de facturas</title>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<style>
+#outer { width:100%; }
+.inner { display: inline-block; }
+</style>
+    </head>
+    <body>
+        <div id="divFactura">
+            <div id="cabeceraFactura">
+              <div id="outer">
+              <div id="facturaAnterior"></div>
+              <div id="facturaPosterior"></div>
+              </div>
+           <label id="lblNumFactura">Núm. Factura:</label>
+           <input type="text" id="txtnumfactura" />
+           <br>
+
+           <label id="lblNombre">Nombre:</label>
+           <input type="text" id="txtnombre" />
+           <br>
+
+           <label id="lblDNI">DNI:</label>
+           <input type="text" id="txtdni" />
+           <br>
+
+           <label id="lblFecha">Fecha:</label>
+            <input type='text' id='txtFecha' />
+            </div>
+                <table id ="detalle" border="2" width="3" cellspacing="2" cellpadding="1">
+            <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Descripción</th>
+                        <th>Cantidad</th>
+                        <th>Valor Unitario</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <!-- Ejemplo de elementos de línea de factura <tr id="l1">
+<td><input class="cod" type='number' id='txtCodigo1' min="1"/><br> </td>
+<td><input class="descrip" type='text' id='txtDescripcion1' value=' '/><br></td>
+<td><input class="cant" type='number' id='txtCantidad1' min="1"/><br></td>
+<td><input class="vunit"type='number' id='txtValorUnitario1' min="0.1" step="0.01"/><br></td>
+<td><input class="totPro" type='number' id='txtTotalProductos1' value='0' disabled=""/><br></td>
+                  </tr>cierra L1 -->
+                </tbody>
+                <br>
+                <br>
+            </table>
+
+               <div class="Resultados">
+                 <br>
+                 <table id ="valorPagar" border="2" width="3" cellspacing="2" cellpadding="1">
+                     <tr>
+                         <td><label id="lbl">SubTotal</label></td>
+                         <td><input class="totPro" id="txtSubTotal" value='0' disabled="" type ="number"> </td>
+                     </tr>
+
+                     <tr>
+                         <td><label id="lbl">IVA</label></td>
+                         <td><input class="totPro" id="txtIva" value='0' disabled="" type="number" ></td>
+                     </tr>
+                     <tr>
+                         <td>
+                            <label id="lbl" >Total</label>
+                         </td>
+                     <td><input class="totPro" id="txtTotal" value='0' disabled="" type ="number"></td>
+                     </tr>
+                 </table>
+        </div>
+<footer>
+  <span>Nuevo caso detectado de Corona Virus en </span>
+  <span><!-- La ciudad China aleatoria va aquí --></span>
+</footer>
+<script src="script.js"></script>
+
+    </body>
+</html>
+<script>
+
+
+$(document).ready(function()
+{
+});
+</script>

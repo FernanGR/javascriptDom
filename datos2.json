@@ -1,0 +1,125 @@
+{
+  "listaFacturas": [
+    {
+      "numero": 0,
+      "nombre": "n0",
+      "dni": "dni0",
+      "fecha": "f0",
+      "lineaProductos": [
+        {
+          "codigo": 0,
+          "descripcion": 0,
+          "cantidad": 0,
+          "valorUnitario": 0
+        },
+        {
+          "codigo": 1,
+          "descripcion": 1,
+          "cantidad": 1,
+          "valorUnitario": 1
+        },
+        {
+          "codigo": 2,
+          "descripcion": 2,
+          "cantidad": 2,
+          "valorUnitario": 2
+        },
+        {
+          "codigo": 3,
+          "descripcion": 3,
+          "cantidad": 3,
+          "valorUnitario": 3
+        },
+        {
+          "codigo": 4,
+          "descripcion": 4,
+          "cantidad": 4,
+          "valorUnitario": 4
+        },
+        {
+          "codigo": 5,
+          "descripcion": 5,
+          "cantidad": 5,
+          "valorUnitario": 5
+        },
+        {
+          "codigo": 6,
+          "descripcion": 6,
+          "cantidad": 6,
+          "valorUnitario": 6
+        },
+        {
+          "codigo": 7,
+          "descripcion": 7,
+          "cantidad": 7,
+          "valorUnitario": 7
+        },
+        {
+          "codigo": 8,
+          "descripcion": 8,
+          "cantidad": 8,
+          "valorUnitario": 8
+        },
+        {
+          "codigo": 9,
+          "descripcion": 9,
+          "cantidad": 9,
+          "valorUnitario": 9
+        },
+        {
+          "codigo": 10,
+          "descripcion": 10,
+          "cantidad": 10,
+          "valorUnitario":10 
+        }
+ 
+      ]
+    },
+    {
+      "numero": 1,
+      "nombre": "n1",
+      "dni": "dni1",
+      "fecha": "f1",
+      "lineaProductos": [
+        {
+          "codigo": 1,
+          "descripcion": 1,
+          "cantidad": 1,
+          "valorUnitario": 1
+        },
+        {
+          "codigo": 2,
+          "descripcion": 2,
+          "cantidad": 2,
+          "valorUnitario": 2
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "nombre": "n2",
+      "dni": "dni2",
+      "fecha": "f2",
+      "lineaProductos": [
+        {
+          "codigo": 2,
+          "descripcion": 2,
+          "cantidad": 2,
+          "valorUnitario": 2
+        },
+        {
+          "codigo": 3,
+          "descripcion": 3,
+          "cantidad": 3,
+          "valorUnitario": 3
+        },
+        {
+          "codigo": 4,
+          "descripcion": 4,
+          "cantidad": 4,
+          "valorUnitario": 4
+        }
+      ]
+    }
+  ]
+}
